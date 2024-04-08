@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import GroupingOptions from "../GroupOptions";
 import SortingOptions from "../SortingOptions";
 import { HeaderProps } from "../../types";

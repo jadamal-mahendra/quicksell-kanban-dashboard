@@ -13,7 +13,7 @@ import Header from "./components/Header";
 function App() {
   // Fetch initial ticket data
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  const { tickets: initialTickets, loading, error, users } = useTicketData();
+  const { tickets: initialTickets } = useTicketData();
 
   // State for grouping and sorting options
   const [groupingOption, setGroupingOption] = useState<TGroupingOption>(() => {
