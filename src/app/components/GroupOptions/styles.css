@@ -1,0 +1,36 @@
+/* groupingOptions.css */
+.grouping-options {
+    margin-bottom: 20px;
+    color:black
+  }
+  
+  .grouping-options label {
+    margin-right: 10px;
+  }
+  
+  .grouping-options select {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    font-size: 14px;    color:black
+
+  }
+  
+  /* sortingOptions.css */
+  .sorting-options {
+    margin-bottom: 20px;
+  }
+  
+  .sorting-options label {
+    margin-right: 10px;
+  }
+  
+  .sorting-options select {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    font-size: 14px;
+  }
+  

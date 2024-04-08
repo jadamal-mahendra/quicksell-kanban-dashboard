@@ -1,0 +1,33 @@
+.avatar-container {
+  height: 35px;
+  position: relative;
+}
+
+.avatar-container img {
+  border-radius: 50%;
+}
+.avatar-badge-green {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: green;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-color: #fff;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.avatar-badge-grey {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: grey;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-color: #fff;
+  border-width: 2px;
+  border-style: solid;
+}

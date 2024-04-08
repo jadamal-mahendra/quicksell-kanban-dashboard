@@ -1,0 +1,74 @@
+/* ticket.css */
+.ticket {
+  background-color: #f9f9f9;
+  border: 1px solid #dddddd;
+  color: #000;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.ticket-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ticket-header h3 {
+  margin: 0;
+}
+
+.ticket p {
+  margin: 8px 0;
+}
+
+.priority-4 {
+  background-color: #ffcccc; /* Urgent */
+}
+
+.priority-3 {
+  background-color: #ffe6cc; /* High */
+}
+
+.priority-2 {
+  background-color: #ffffcc; /* Medium */
+}
+
+.priority-1 {
+  background-color: #e6ffcc; /* Low */
+}
+
+.priority-0 {
+  background-color: #f2f2f2; /* No priority */
+}
+
+/* .ticket img {
+    border-radius: 50%;
+  } */
+.ticket-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ticket-title {
+  font-weight: 500;
+  display: flex;
+  align-items: baseline;
+}
+.ticket-tag {
+  border: 1px solid grey;
+  display: flex;
+  width: max-content;
+  padding: 5px;
+  border-radius: 5px;
+}
+.ticket-tag div {
+  margin-top: 0;
+  height: 10;
+}
+.ticket-footer {
+  display: flex;
+  align-items: center;
+}
